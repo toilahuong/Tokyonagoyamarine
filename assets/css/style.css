@@ -202,6 +202,7 @@ h6 {
       animation-delay: 11s;
       animation-fill-mode: forwards;
     }
+   
     .ser1, .ser2, .ser3, .ser4, .ser5, .ser6{
       opacity: 0;
       animation-name: bounceIn;
@@ -270,6 +271,7 @@ h6 {
     .ser4{animation-delay: 7s;}
     .ser5{animation-delay: 9s;}
     .ser6{animation-delay: 11s;}
+    
     @keyframes bounceIn{
       0%{
         opacity: 0;
@@ -1893,4 +1895,39 @@ body.mobile-nav-active #mobile-nav-toggle {
   #subscribe button {
     margin-top: 10px;
   }
+}
+.ser-white {
+  color: white !important;
+}
+.ser-lh-1 {
+  line-height: 1;
+}
+.ser-lh-12 {
+  line-height: 1.2;
+}
+.lh-0 {
+  line-height: 0px;
+}
+.tjustify {
+  text-align: justify;
+}
+.serv-titre-bg1 {
+  background: url(../img/8333.jpg);
+}
+.serv-titre-bg2 {
+  background: url(../img/boat-propeller-improvement-repair-tools-gloves_79295-3483.jpg);
+}
+.serv-titre-bg3 {
+  background: url(../img/8332.jpg);
+}
+@media (max-width: 991px) {
+  .service #s4,#s2{
+    border-top: 5px dotted silver;
+    border-bottom: 5px dotted silver;
+    padding-top: 1em;
+    padding-bottom: 1.5em;
+  }
+}
+.contact-phone p i, .contact-email p i {
+  font-size: 0.9em !important;
 }
