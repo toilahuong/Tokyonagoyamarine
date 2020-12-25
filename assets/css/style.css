@@ -270,7 +270,7 @@ h6 {
     .ser3{animation-delay: 5s;}
     .ser4{animation-delay: 7s;}
     .ser5{animation-delay: 9s;}
-    .ser6{animation-delay: 11s;}
+    .ser6{animation-delay: 9s;}
     
     @keyframes bounceIn{
       0%{
@@ -709,6 +709,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   height: 100vh;
   background: url(../img/intro-bg1.jpg) top center;
   background-size: cover;
+  background-position: center;
   overflow: hidden;
   position: relative;
 }
